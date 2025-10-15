@@ -30,9 +30,24 @@ body {
   min-height: 100vh;
 }
 
+header {
+  position: absolute;
+  top: 0px;
+  padding: 2rem;
+  height: 2.5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  padding: 2rem;
+  height: 2.5rem;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin: 0;
 }
 
 button {
