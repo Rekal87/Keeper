@@ -18,10 +18,18 @@ function Note() {
   };
 
   // add tasks
-  const addKeep = () => {};
+  const addKeep = () => {
+    if (newKeep.trim() !== "") {
+      setKeep((keep) => [...keep, newKeep]);
+      setNewKeep("");
+    }
+    return;
+  };
 
   // delete tasks
-  const deleteKeep = (index) => {};
+  const deleteKeep = (index) => {
+    keep.filter((index) => index === index);
+  };
 
   const moveKeepUp = (index) => {};
 
@@ -38,7 +46,7 @@ function Note() {
           onChange={handleInputChangr}
         />
         <button
-          className="btn btn-outline-secondary"
+          className="btn btn-success"
           type="button"
           id="button-addTask"
           onClick={addKeep}
