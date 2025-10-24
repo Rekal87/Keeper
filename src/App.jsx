@@ -1,12 +1,10 @@
 import "./App.css";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
 import Note from "./components/Note";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className="App container">
       <Note />
       <Footer />
     </div>
