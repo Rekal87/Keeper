@@ -1,0 +1,12 @@
+.list-group-item {
+  align-items: center;
+  display: flex;
+}
+
+.delete-button {
+  margin-left: auto;
+}
+
+.btn {
+  cursor: pointer;
+}
